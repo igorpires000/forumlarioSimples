@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
 
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Aboreto';
+    font-family: 'Oswald';
+    letter-spacing: 1px;
+    
 }
 img{
     width: 3rem;
@@ -19,18 +21,21 @@ header{
 }
 /*Formulário*/
 body{
-    background-color: blue;
+    background-color: #F5F5F5;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 form{
-    background-color: red;
+    background-color: #D9D9D9;
+    border-radius: 1rem;
+    box-shadow: 2px 4px 8px 8px rgba(0, 0, 0, 0.2);
     margin-top: 7rem;
     height: 60vh;
     width: 50vw;
     display: flex;
     justify-content: center;
+    
 }
 .form_one{
     margin-top:1.5rem;
@@ -46,5 +51,53 @@ form{
 .container{
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding-top: 2rem;
+    width: 50vw;
+}
+.name_one{
+    margin-bottom: 1rem;
+}
+
+.email_one{
+    margin-bottom: 1rem;
+}
+
+.date_one{
+    margin-bottom: 1rem;
+}
+
+.sex{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+/*Estilização individual dos botões*/
+.name_bottom{
+    border-radius: 5px;
+    width: 20vw;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+.email_bottom{
+    border-radius: 5px;
+    width: 20vw;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+.date_bottom{
+    border-radius: 5px;
+    width: 20vw;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+
+}
+.date_two{
+    display: flex;
+    justify-content: center;
 }
