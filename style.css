@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Aboreto';
+}
+img{
+    width: 3rem;
+    display: flex;
+    align-self: center;
+}
+/*Cabeçalho*/
+header{
+    display: flex;
+    justify-content:center;
+    margin-top: 2rem;;
+    
+}
+/*Formulário*/
+body{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    background-color: red;
+    margin-top: 7rem;
+    height: 60vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+}
+.form_one{
+    margin-top:1.5rem;
+
+}
+/*Ajuste da imagem*/
+.image{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+/*Conteúdo*/
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+}
